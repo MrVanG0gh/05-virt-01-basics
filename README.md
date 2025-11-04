@@ -15,6 +15,14 @@
 
 ---
 
+## Решение 1
+
+![Screen_1_1](https://github.com/MrVanG0gh/05-virt-01-basics/blob/main/Screenshots/Screenshot_1_1.png)
+- версия Docker в Yandex Cloud Toolbox образе
+
+![Screen_1_2](https://github.com/MrVanG0gh/05-virt-01-basics/blob/main/Screenshots/Screenshot_1_2.png)
+- дополнительное ПО в составе toolbox
+---
 
 ## Задача 2
 

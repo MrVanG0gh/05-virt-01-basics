@@ -63,7 +63,6 @@ variable "vm_web_zone" {
   description = "Рабочая зона"
 }
 
-# Ex. 6.1
 variable "vms_resources" {
   type = map(map(number))
   description = "Resources combo for VMs"
