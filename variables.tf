@@ -36,7 +36,7 @@ variable "family_name" {
 
 variable "vm_name" {
   type        = string
-  default     = "netology-v_network-platform-web"
+  default     = "netology-toolbox"
   description = "Имя виртуальной машины"
 }
 
@@ -65,16 +65,21 @@ variable "vm_web_zone" {
 
 variable "vms_resources" {
   type = map(map(number))
-  description = "Resources combo for VMs"
+  description = "Resources for VM"
   default = {
     vm_resources = {
       cores = 2
-      memory = 1
-      core_fraction = 5
+      memory = 2
+      core_fraction = 20
     }
   }
 }
 
+variable "vm_disk_size" {
+  type = number
+  default = 40
+  description = "HDD size"
+}
 # Ex. 6.2
 
 variable "common_metadata" {

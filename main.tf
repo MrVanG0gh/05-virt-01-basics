@@ -25,6 +25,7 @@ resource "yandex_compute_instance" "platform_web" {
   boot_disk {
     initialize_params {
       image_id    = data.yandex_compute_image.ubuntu.image_id
+      size        = var.vm_disk_size
     }
   }
   scheduling_policy {
