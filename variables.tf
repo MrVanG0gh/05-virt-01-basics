@@ -30,7 +30,7 @@ variable "vpc_name" {
 
 variable "family_name" {
   type        = string
-  default     = "ubuntu-2004-lts"
+  default     = "toolbox"
   description = "Семейство устанавливаемой ОС"
 }
 
